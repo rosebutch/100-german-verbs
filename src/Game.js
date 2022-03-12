@@ -10,7 +10,6 @@ export default function Game() {
   const [person, setPerson] = useState('1st')
   const [number, setNumber] = useState('Singular')
   const [incorrect, setIncorrect] = useState('')
-  const [transActive, setTransActive] = useState(false)
   const { register, handleSubmit, reset, formState: { errors } } = useForm();
 
   const onSubmit = data => {
