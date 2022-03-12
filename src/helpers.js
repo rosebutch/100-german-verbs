@@ -5,6 +5,6 @@ export const orderify = n => {
   return n + 'th'
 }
 
-export const sOrP = n => 0 ? 'Singular' : 'Plural'
+export const sOrP = n => n === 0 ? 'Singular' : 'Plural'
 
 export const getRandomNumber = max => Math.floor(Math.random() * max)
